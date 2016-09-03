@@ -9,19 +9,21 @@ Microsoft Windows icon files.
 
 ## Usage
 
-	usage: png2ico.py [-h] [--convert PATH] [--filter FILTER] INPUT OUTPUT
+```
+usage: png2ico.py [-h] [--convert PATH] [--filter FILTER] INPUT OUTPUT
 
-	Creates a multisize Microsoft Windows icon file
+Creates a multisize Microsoft Windows icon file
 
-	positional arguments:
-	  INPUT            source file
-	  OUTPUT           target file
+positional arguments:
+  INPUT            source file
+  OUTPUT           target file
 
-	optional arguments:
-	  -h, --help       show this help message and exit
-	  --convert PATH   path to convert (default: /usr/bin/convert)
-	  --filter FILTER  filter used by convert (default: Lanczos2)
+optional arguments:
+  -h, --help       show this help message and exit
+  --convert PATH   path to convert (default: /usr/bin/convert)
+  --filter FILTER  filter used by convert (default: Lanczos2)
+```
 
-[1]: https://bitbucket.org/scoobadog/png2ico "png2ico"
+[1]: https://github.com/scoobadog/png2ico "png2ico"
 [2]: https://www.python.org/ "Python.org"
 [3]: http://www.imagemagick.org/ "ImageMagick"
